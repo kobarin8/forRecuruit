@@ -1,0 +1,448 @@
+body{
+    width:100%;
+    height:2750px;
+    margin: 0;
+}
+
+
+#logo{
+    position: absolute;
+    z-index: 1;
+    
+    width:calc(100% / 3);
+    height:60%;
+    margin-left: calc(100% / 3);
+    margin-right: calc(100% / 3);
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+#bg_texture{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height:100vh;
+    background-repeat: repeat;
+    z-index:-255;
+}
+
+#top{
+    position: relative;
+    width:100%;
+    height:800px;
+    margin: 0;
+    background-color: white;
+}
+
+#top_bg{
+    background-attachment: fixed;
+    position: absolute;
+    z-index: 0;
+    top:0px;
+    width:100%;
+    height:100%;
+    filter: brightness(75%)
+}
+
+#product{
+    position: relative;
+    width:100%;
+    height:900px;
+    background-color:darkseagreen;
+    margin: 0;
+}
+#product_top{
+    width:100%;
+    height:100px;
+    background-color:white;
+}
+#product_top p{
+    margin: 0 40%;
+    font-size:25px;
+    font-family: 'Sedgwick Ave';
+    vertical-align: middle;
+}
+#product_middle{
+    width:100%;
+    height:800px;
+    background-color:white;
+}
+#product_bottom{
+    position: absolute;
+    bottom:5%;
+    width:100%;
+    height:50px;
+    
+}
+#product_bottom input{
+    width:calc(100% / 3);
+    height:100%;
+    padding:0px;
+    border:0px;
+    margin-left:calc(100% / 3);
+    transition-duration:0.2s;
+    background-color: white;
+}
+
+#product_bottom input:hover{
+    background-color:slategray;;
+    color:white;
+}
+
+#product img{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+}
+
+#category{
+    width:80%;
+    height:950px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: steelblue;
+}
+#category_top{
+    width:100%;
+    height:100px;
+    background-color: steelblue;
+}
+#category_middle{
+    width:100%;
+    height:800px;
+    background-color:black;
+}
+#category_middle_1{
+    width:100%;
+    height: calc(100% / 3);
+}
+#category_middle_2{
+    width:100%;
+    height: calc(100% / 3);
+
+}
+#category_middle_3{
+    width:100%;
+    height: calc(100% / 3);
+
+}
+#category_pic{
+    width:30%;
+    height:90%;
+    float: left;
+    position: relative;
+    top:5%;
+    left:1.5%;
+    background-color:white;
+}
+#categry_description1, #categry_description3{
+    width:65.5%;
+    height:90%;
+    float: left;
+    position: relative;
+    top:5%;
+    left:3%;
+    background-color:white;
+    transition-duration:0.2s;
+}
+#category_pic_2{
+    width:30%;
+    height:90%;
+    float: left;
+    position: relative;
+    top:5%;
+    left:3%;
+    background-color:white;
+}
+#categry_description2{
+    width:65.5%;
+    height:90%;
+    float: left;
+    position: relative;
+    top:5%;
+    left:1.5%;
+    background-color:white;
+    transition-duration:0.2s;
+}
+
+
+#mibaepic1,#mibaepic2,#mibaepic3{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    transition-duration:0.3s;
+    filter: brightness(100%);
+}
+#category img:hover{
+    filter: brightness(60%);
+}
+
+#mibaeText1,#mibaeText2,#mibaeText3{
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left:25%;
+    right:25%;
+    z-index: 255;
+    color: white;
+    transition-duration: 0.2s;
+    opacity: 0;
+    font-family: "Meiryo";
+    margin: 0;
+}
+
+#category_search{
+    display:inline-flex;
+    width:100%;
+    height:50px;
+
+}
+#select{
+    width:calc(100% / 3);
+    height:100%;
+    padding:0px;
+    border:0px;   
+}
+#search{
+    width:calc(100% / 3);
+    height:100%;
+    padding:0px;
+    border:0px;
+}
+#submit{
+    
+    width:calc(100% / 3);
+    height:100%;
+    padding:0px;
+    border:0px;
+    background-color: white;
+    transition-duration:0.2s;
+}
+#submit:hover{
+    background-color:slategray;
+    color:white;
+}
+#category h4{
+    position: relative;
+    top:30%;
+    font-size:25px;
+    color:white;
+    font-family: 'MV Boil';
+    margin: 0;
+    text-align: center
+}
+
+#footer{
+    width:100%;
+    height:100px;
+    background-color:black;
+}
+
+
+
+
+
+
+
+
+
+#headerreturnbutton{
+    position: fixed;
+    right:1%;
+    top:3%;
+    opacity:1.0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#headerreturnbutton_delete{
+    position: fixed;
+    right:1%;
+    top:2%;
+    opacity:0;
+    transition: 0.3s;
+}
+#headerreturnbutton img{
+    width:70px;
+    height:60px;
+}
+#headerreturnbutton_delete img{
+    width:60px;
+    height:60px;
+}
+
+#header{
+    position:fixed;
+    top:0px;
+    right:0px;
+    width:12%;
+    height:100vh;
+    border: solid 2px white;
+    transition: 0.4s;
+    z-index: 257;
+}
+#header_delete{
+    position:fixed;
+    top:0px;
+    right:0px;
+    width:12%;
+    height:100vh;
+    border: solid 2px white;
+    transform: translateX(100%);
+    transition: 0.6s;
+    opacity:0;
+}
+
+#header_bg{
+    position: absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -4
+}
+
+#returnBox{
+    position:relative;
+    top:0px;
+	width:100%;
+	height:20%;
+    background-color: white;
+}
+
+
+#headerbutton{
+    position:absolute;
+    top:20%;
+    left:20%;
+    cursor: pointer;
+    width:60%;
+    height:60%;
+    transition-duration: 0.3s;
+}
+
+#headerbutton:hover{
+
+    transform: scale(1.1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#searchBox{
+    position:relative;
+
+	width:100%;
+	height:20%;
+	
+}
+#jenre,#word,#search_btn{
+    width:100%;
+    height:calc(100% / 3);
+}
+
+#jenre_size{
+    position: relative;
+    top:2.5%;
+
+    width:100%;
+    height:95.5%;
+    padding:0px;
+    border:0px;
+    
+}
+#word_size{
+    position: relative;
+    width:100%;
+    height:97.5%;
+    padding:0px;
+    border:0px;
+    
+}
+#search_btn_size{
+    position: relative;
+    width:100%;
+    height:98%;
+    padding:0px;
+    border:0px;
+    background-color:white;
+}
+
+#menuBox{
+    position:relative;
+
+	width:100%;
+	height:25%;
+}
+#menuBox img{
+    position:relative;
+    top:10%;
+    left:4%;
+    width:25%;
+    height:80%;
+    background-color: white;
+
+}
+
+#txt_space1{
+    position: absolute;
+    top:2%;
+    left:0%;
+    width:100%;
+    height:98%;
+    background-color: white;
+}
+
+#txt_space1 p{
+    text-align: center;
+    margin:10px;
+}
+#loginMenu,#CartMenu,#ProductListMenu,#MyPageMenu{
+    position:relative;
+    width:100%;
+    height:calc(100% / 4);
+    cursor: pointer;
+    transition-duration:0.3s;
+    transition-delay: 0.2s;
+}
+
+#mds1 p{
+    color:white;
+    text-align: center;
+}
