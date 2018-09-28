@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+/* body{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:22px;
+	background-image:url("../images/background/color.png");
+	background-attachment:fixed;
+	box-shadow: inset 0 0 15px 15px rgba(0, 0, 0, 0.1);
+	position:relative;
+}
+
+#contents {
+	background-color:rgba(255, 255, 255, 0.5);
+	text-align:center;
+	width:80%;
+	margin:80px auto;
+	overflow:auto;
+	padding:40px 30px 80px 30px;
+}
+
+#main-box{
+	width:80%;
+	text-align:center;
+	padding:40px 15px 40px 15px;
+	margin:0 auto;
+	background-color:#FBFAF5;
+	overflow:auto;
+} */
+リストテーブル部分
+
+.horizontal-list-table {
+	color: rgb(0, 0, 0);
+	border-collapse: collapse;
+	width: 70%;
+}
+
+table.horizontal-list-table, th, td {
+	margin: 0 auto;
+	width: 10%;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	border: 2px #808080 solid;
+	border-collapse: collapse;
+	white-space: nowrap;
+}
+
+table.horizontal-list-table th {
+	/* width: 150px; */
+	padding: 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+table.horizontal-list-table td {
+	/* width: 15px; */
+	padding: 10px;
+	color: rgb(0, 0, 0);
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+h1 {
+	width: 90%;
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 0.5em 0;
+	上下の余白
+}
+
+h2 {
+	width: 90%;
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 0.5em 0;
+	上下の余白
+}
+/* エラーメッセージ（チェックされていません） */
+.error-message {
+	text-align: cener;
+	color: red;
+	font-weight: bold;
+}
+
+決済、削除ボタン
+.submit_btn2 {
+	display: inline-block;
+	max-width: 180px;
+	text-align: left;
+	border: 2px solid #3a4145;
+	font-size: 16px;
+	color: #3a4145;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 16px;
+	border-radius: 4px;
+	transition: .4s;
+}
+
+.submit_btn2:hover {
+	background-color: #7e8f7e;
+	border-color: #cbe585;
+	color: #FFF;
+}
+
+.item-image-box {
+	width: 80px;
+	height: 50px;
+	max-height: 16.750rem;
+	margin: 0;
+	padding: 0;
+	border-radius: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10%;
+}
+
+.info {
+	text-align: center;
+	margin: 10px auto;
+}

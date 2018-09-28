@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+#complete-box {
+	text-align:center;
+	font-size:120%;
+	font-family:'arial black';
+	width:50%;
+	height:30%;
+	padding:10%;
+	margin:15% 15%;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius:5% ;
+	white-space: nowrap;
+
+	}

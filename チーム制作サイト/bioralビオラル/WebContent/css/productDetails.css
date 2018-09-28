@@ -1,0 +1,368 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 62.5%; /* 10px相当 */
+}
+
+h1 {
+	padding-left: 6.0rem;
+	font-size: 5.2rem;
+}
+
+/* 2カラムレイアウト */
+#product-2column-container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0;
+	padding: 2%;
+	text-align: left;
+	box-sizing: border-box;
+	clear: both;
+	margin-bottom: 5%;
+}
+
+#product-left {
+	float: left;
+	width: 55%;
+	min-width: 20.0rem;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#product-right {
+	float: left;
+	width: 45%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+/* １カラムレイアウト */
+#product-1column-container {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0;
+	padding: 2%;
+	box-sizing: border-box;
+	clear: both;
+	margin-bottom: 5%;
+}
+
+/* 関連商品container */
+#reccomend-container {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+/* 項目タイトルレイアウト */
+#contents-title {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 3%;
+	text-align: left;
+	font-size: 2.4rem;
+}
+
+#contents-title {
+	position: relative;
+	padding: 0rem 0.5em 0.5em 2em;
+	border-bottom: 0.1rem solid #B61C2C;
+}
+
+#contents-title::before, #contents-title::after {
+	position: absolute;
+	content: '';
+	border-radius: 100%
+}
+
+#contents-title::before {
+	top: 0.2rem;
+	left: 0.2rem;
+	z-index: 2;
+	width: 1.8rem;
+	height: 1.8rem;
+	background: rgba(203, 162, 164, 0.5);
+}
+
+#contents-title::after {
+	top: 1.6rem;
+	left: 1.6rem;
+	width: 1.3rem;
+	height: 1.3rem;
+	background: rgba(182, 28, 44, 0.5);
+}
+
+/* 画像フレームレイアウト */
+#product-img-box1 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#product-img-box2 {
+	width: 100%;
+	max-height: 20.0rem;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/* 商品画像レイアウト */
+.product-img1 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.product-img2 {
+	width: 100%;
+	min-height: 20.0rem;
+	margin: 0;
+	padding: 0;
+}
+
+/* アイコンレイアウト */
+.cart-icon {
+	position: absolute;
+	top: 0%;
+	right: 110%;
+	width: 4.0rem;
+}
+
+.review-icon {
+	width: 4.5rem;
+	height: auto;
+}
+
+.send-icon {
+	position: absolute;
+	bottom: 1%;
+	left: 110%;
+	width: 4.0rem;
+}
+
+/* 商品詳細レイアウト */
+#product-details-box {
+	width: 100%;
+	margin: 0;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+/* 商品画像（項目名）レイアウト */
+#product-img-title {
+	text-align: left;
+	padding-left: 2%;
+	font-size: 2.4rem;
+}
+
+/* 商品詳細項目レイアウト */
+#product-box1 {
+	width: 100%;
+	margin-bottom: 4%;
+	display: inline-block;
+	vertical-align: middle;
+	clear: both;
+}
+
+/* 商品詳細項目名レイアウト */
+#product-title1 {
+	width: 40%;
+	float: left;
+	text-align: left;
+	font-size: 2.0rem;
+}
+
+#product-title2 {
+	width: 100%;
+	margin-bottom: 2%;
+	float: left;
+	text-align: left;
+	font-size: 2.0rem;
+}
+
+#product-title3 {
+	width: 60%;
+	float: left;
+	text-align: left;
+	font-size: 2.0rem;
+}
+
+#product-title4 {
+	width: 40%;
+	float: left;
+	text-align: left;
+	font-size: 2.0rem;
+}
+
+/* 商品詳細項目値レイアウト */
+#product-value1 {
+	width: 60%;
+	float: right;
+	text-align: left;
+	font-size: 1.6rem;
+}
+
+#product-value2 {
+	width: 60%;
+	float: right;
+	text-align: left;
+	font-size: 1.6rem;
+}
+
+#product-value3 {
+	width: 60%;
+	float: right;
+	text-align: left;
+	font-size: 1.6rem;
+}
+
+#product-value4 {
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 1.6rem;
+}
+
+#product-value5 {
+	width: 60%;
+	float: left;
+	text-align: left;
+	font-size: 2.2rem;
+}
+
+#product-value6 {
+	position: relative;
+	width: auto;
+	float: left;
+	text-align: right;
+	font-size: 2.2rem;
+	margin-left: 55%;
+}
+
+/* 関連商品レイアウト */
+#recomｍend-box {
+	position: relative;
+	/* float: left; */
+	text-align: center;
+	display: inline-block;
+	width: 30%;
+	min-width: 20.0rem;
+	max-width: 20.0rem;
+	margin: 1%;
+	border: 0.1rem solid gray;
+	box-sizing: border-box;
+}
+
+#recomｍend-box a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999rem;
+}
+
+#recomｍend-box:hover {
+	opacity: 0.75;
+	transition: 0.2s;
+	/* -webkit-transition: 0.2s; */
+}
+
+#recomｍend-box-text {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+/* レビュー表示レイアウト */
+#review {
+	/* 	display:inline-block; */
+	width: 90%;
+	margin: 4% 3% 5% 5%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+#details-property {
+	width: 80%;
+	word-break : break-all;
+}
+
+#review-value {
+	font-size: 1.6rem;
+}
+
+/* トップレビューレイアウト */
+#topReviewList {
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+#topreview-title {
+	position: relative;
+	width: 100%;
+	float: left;
+	text-align: left;
+	padding-left: 3.5rem;
+}
+
+#topreview-title:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 2.5rem;
+	height: 2.5rem;
+	bottom: 0.2rem;
+	left: 0.5rem;
+	background-image: url(../images/icons/crown.png);
+	background-size: contain;
+	vertical-align: middle;
+}
+
+/* 全レビュー表示レイアウト */
+#allReviewList {
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+/* 全レビュー非表示設定 */
+#hiddenAllReviewList {
+	display: none;
+}
+
+/* レビュー投稿フォームレイアウト */
+#review-form {
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+#review-form input, textarea, select{
+	font-size: 1.8rem;
+}
+
+#review-title{
+	font-size: 2.2rem;
+}
+
+#review-send {
+	position: relative;
+	width: auto;
+	float: left;
+	text-align: left;
+	font-size: 2.2rem;
+}

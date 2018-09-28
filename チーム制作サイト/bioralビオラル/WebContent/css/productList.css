@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+#contents-title{
+	margin-bottom:60px;
+}
+
+h1{
+	padding-left:60px;
+	font-size:62px;
+}
+
+#product-list{
+	text-align:center;
+}
+
+#product-list ul{
+	list-style-type:none;
+	display: inline;
+}
+
+#product-list-box{
+	position:relative;
+	width:300px;
+	height:400px;
+	padding:20px 15px 40px 15px;
+	margin:30px 10px;
+	text-align:center;
+	font-size:24px;
+	background-color:#FBFAF5;/* 生成り色 */
+	border-radius:10% 20% 20% 20%;
+	display:inline-block;
+}
+
+#product-list-box a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-indent:-9999px;
+}
+
+#product-list-box:hover{
+	opacity: 0.75;
+	transition: 0.2s;
+	/* -webkit-transition: 0.2s; */
+}
+
+#product-name-box{
+	text-align:left;
+	padding-left:30px;
+}
+
+#product-name-kana-box{
+	text-align:left;
+	padding-left:30px;
+	font-size:20px;
+	margin-bottom:5px;
+}
+
+#product-img-box{
+	width:100%;
+	max-height:250px;
+	overflow:hidden;
+	margin:0;
+	border-radius:8% 20% 15% 15%;
+}
+
+.item-image-box-200{
+	width:100%;
+	min-height:250px;
+	text-align:center;
+}
+
+#product-price-box{
+	text-align:right;
+	padding-right:30px;
+}
+
+.pager{
+	margin-top:30px;
+	margin-bottom:40px;
+	text-align:center;
+	font-size:34px;
+}
+
+.pager:before{
+	content:"page";
+}
