@@ -1,0 +1,22 @@
+□インターノウスでのチーム研修で担当した箇所は以下になります。
+
+home.jsp
+home.css
+home.js
+
+header.jsp
+header.css
+header.js
+
+productDetails.jsp (レビュー部分)
+
+error.html
+
+ReviewAction.java
+
+ResetPasswardAction.java
+ResetPasswardConfirmAction.java
+ResetPasswardCompleteAction.java
+
+MCategoryDAO.java
+
