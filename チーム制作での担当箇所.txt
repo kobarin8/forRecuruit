@@ -18,5 +18,8 @@ ResetPasswardAction.java
 ResetPasswardConfirmAction.java
 ResetPasswardCompleteAction.java
 
+ReviewDAO.java
 MCategoryDAO.java
 
+ReviewDTO.java
+MCategoryDTO.java
